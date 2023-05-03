@@ -7,7 +7,7 @@
 
 
 # Descrição
-Curso realizado pela XPe.
+Bootcamp Desenvolvedor Python realizado pela XPe.
 
 
 # Tech Used
