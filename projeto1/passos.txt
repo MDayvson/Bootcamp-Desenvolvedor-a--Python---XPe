@@ -14,5 +14,12 @@ criar um projeto: django-admin startproject projeto1
 # dentro da pasta projeto1 digitar : cd projeto1
 
 depois: python manage.py runserver
+----------------------------------------------------------------
+
+criando app: python manage.py startapp app1
 
 
+----------------------------------------------------------------
+criar migraçoes: python manage.py makemigrations
+
+aplicando as migraçoes: python manage.py migrate
