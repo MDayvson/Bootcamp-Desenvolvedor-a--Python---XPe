@@ -1,0 +1,51 @@
+# criar ambiente virtual
+# python -m venv venv
+
+# ativar ambiente virtual
+# venv\Scripts\Activate
+# deactivate
+
+# pip freeze > requirements.txt
+
+______________________________________________________
+
+criar um projeto: django-admin startproject projeto1
+
+# dentro da pasta projeto1 digitar : cd projeto1
+
+depois: python manage.py runserver
+----------------------------------------------------------------
+
+criando app: python manage.py startapp app1
+
+
+----------------------------------------------------------------
+criar migraçoes: python manage.py makemigrations
+
+aplicando as migraçoes: python manage.py migrate
+
+----------------------------------------------------------------
+python manage.py shell
+from app1.models import User
+User.objects.all()
+User: Nome: Merari Dayvson,telefone:81983552097, Email:mdayvson@outlook.com
+user.save()
+user.id
+exit()
+
+----------------------------------------------------------------
+python manage.py createsuperuser
+
+# registrar models no admin.py (app1)
+
+----------------------------------------------------------------
+Erro na inserção de dados
+mudar o campo no models
+
+criar migraçoes: python manage.py makemigrations
+aplicando as migraçoes: python manage.py migrate
+
+
+
+----------------------------------------------------------------
+criar templates
